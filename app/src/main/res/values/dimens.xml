@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="system_size">25sp</dimen>
+    <dimen name="system_size1">19sp</dimen>
+    <dimen name="numeric_size">15sp</dimen>
+    <dimen name="button_length">250sp</dimen>
+    <dimen name="button_height">70sp</dimen>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_lagrange_polynomial"
+            android:text="@string/lagrange_polynomial"
+            android:layout_width="@dimen/button_length"
+            android:layout_height="@dimen/button_height"/>
+
+        <Button
+            android:id="@+id/btn_newton_polynomial"
+            android:text="@string/newton_polynomial"
+            android:layout_width="@dimen/button_length"
+            android:layout_height="@dimen/button_height"/>
+
+        <Button
+            android:id="@+id/btn_cubic_spline"
+            android:text="@string/cubic_spline"
+            android:layout_width="@dimen/button_length"
+            android:layout_height="@dimen/button_height"/>
+
+        <Button
+            android:id="@+id/btn_least_squares"
+            android:text="@string/least_squares_method"
+            android:layout_width="@dimen/button_length"
+            android:layout_height="@dimen/button_height"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

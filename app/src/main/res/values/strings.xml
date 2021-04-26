@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NM_Lab3</string>
+    <string name="cubic_spline">Кубический сплайн</string>
+    <string name="least_squares_method">Метод наименьших квадратов</string>
+    <string name="lagrange_polynomial">Многочлен Лагранжа</string>
+    <string name="newton_polynomial">Многочлен Ньютона</string>
+</resources>
